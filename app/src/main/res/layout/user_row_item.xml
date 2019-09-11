@@ -17,6 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp">
+
             <TextView
                 android:id="@+id/txtNamee"
                 android:layout_width="wrap_content"
@@ -74,6 +75,48 @@
                 android:layout_toRightOf="@+id/txtjenkel"
                 android:layout_below="@id/txttaggal"
                 android:text="asd "
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:id="@+id/txtnomor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtjenkel"
+                android:text="Nomor :"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:paddingRight="15dp"/>
+            <TextView
+                android:id="@+id/txtnomorr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/txtnomor"
+                android:layout_below="@id/txtjenkell"
+                android:text="no "
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:id="@+id/txtalamat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtnomor"
+                android:text="Alamat :"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:paddingRight="15dp"/>
+            <TextView
+                android:id="@+id/txtalamatt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/txtalamat"
+                android:layout_below="@id/txtnomorr"
+                android:text="alamatt "
                 android:textStyle="bold"
                 android:textSize="20sp"
                 android:textColor="@color/colorPrimaryDark"/>
